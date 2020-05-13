@@ -1,7 +1,18 @@
+/* 
+font-family: 'Bitter', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+ */
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
 }
 
 body {
@@ -23,7 +34,7 @@ body {
 }
 
 header {
-  height: 70vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,25 +68,98 @@ header {
   color: whitesmoke;
   text-align: center;
   font-size: 2.5em;
+  font-family: 'Bitter', serif;
 }
 .site-subtitle-2,
 .site-subtitle {
   color: silver;
-  font-style: italic;
+  /*font-style: italic;*/
   font-weight: lighter;
   text-align: center;
   font-size: 2em;
+  font-family: 'Cinzel', serif;
+  line-height: 1.5;
 }
 
 .site-subtitle-2 {
   font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
 }
+
 
 .indice {
   color: whitesmoke;
   font-weight: lighter;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Electrolize', sans-serif;
+  padding: 0.2em;
+}
+
+.sobre {
+  padding: 2em;
+}
+
+@media (min-width: 1200px) {
+  .sobre {
+    padding: 1em 10em;
+  }
+}
+
+
+
+.sobre .site-subtitle {
+  color: whitesmoke;
+  /*font-style: italic;*/
+  font-weight: lighter;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Cinzel', serif;
+  line-height: 2em;
+
+}
+
+.sobre .text {
+  color: silver;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+
+.portfolio {
+  padding: 3em;
+}
+
+.portfolio .grid {
+  display: grid;
+  gap: 1em;
+  text-align: center;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+
+.img-portfolio {
+  height: 3em;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.legenda {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.contato {
+  padding: 3em;
 }
 
 .dados{
@@ -83,6 +167,7 @@ header {
   font-weight: lighter;
   text-align: center;
   font-size: 1em;
+  line-height: 3em;
 }
 
 .dados a {
@@ -90,18 +175,3 @@ header {
   text-decoration: none;
 }
 
-.img-portfolio {
-  height: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-
-}
-
-.legenda {
-  color: whitesmoke;
-  font-weight: lighter;
-  text-align: center;
-  font-size: 1em;
-}
