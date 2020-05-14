@@ -1,3 +1,3 @@
 # Meu site
 
-https://altanizio.github.io/site/
+https://altanizio.github.io/profile/
