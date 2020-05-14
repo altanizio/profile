@@ -167,6 +167,7 @@ header {
 
 }
 
+
 .sobre .text {
   color: silver;
   font-weight: lighter;
@@ -175,6 +176,43 @@ header {
   text-align: justify;
   text-justify: inter-word;
 
+}
+
+.portfolio .grid_portfolio {
+  display: grid;
+  gap: 2em;
+}
+
+@media (min-width: 560px) {
+  .portfolio .grid_portfolio {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid_portfolio {
+    grid-template-columns: repeat(2, 260px);
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+.portfolio figure {
+  text-align: center;
+}
+
+.img-portfolio {
+  transition: transform 500ms;
+  width: 250px; 
+  height: 250px;
+  object-fit: cover;
+  object-position: center; 
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.1);
 }
 
 .portfolio .grid {
@@ -231,11 +269,11 @@ header {
 .dados a {
   color: silver;
   text-decoration: none;
-  transition: text-shadow 1s,font-size 1s;
+  transition: text-shadow 1s,transform 1s;
 }
 
 .dados a:active,
 .dados a:hover{
   text-shadow: 0em 0em 0.5em rgba(255,255,255,0.7);
-  font-size: 1.2em;
+  transform: scale(1.1);
 }
