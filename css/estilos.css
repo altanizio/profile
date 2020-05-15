@@ -181,6 +181,8 @@ header {
 .portfolio .grid_portfolio {
   display: grid;
   gap: 2em;
+  align-content: center;
+  justify-content: center;
 }
 
 @media (min-width: 560px) {
