@@ -94,9 +94,12 @@ header {
   font-size: 2em;
   font-family: 'Cinzel', serif;
   line-height: 1.5;
+}
 
-  animation: 1s linear 0.5s ani_intro forwards;
-  opacity: 0;
+.text-efect {
+animation: 1s linear 0.5s ani_intro forwards;
+opacity: 0;
+
 }
 
 .site-subtitle-2 {
@@ -144,17 +147,17 @@ header {
 }
 
 .portfolio, .contato, .sobre {
-  padding: 3em;
+  padding: 2em 3em;
   min-width: 100vw;  
 }
 
-/*
+
 @media (min-width: 1200px) {
-  .sobre {
-    padding: 1em 10em;
+  .portfolio, .contato, .sobre {
+    padding: 2em 10em;
   }
 }
-*/
+
 
 .sobre .site-subtitle {
   color: whitesmoke;
@@ -168,8 +171,10 @@ header {
 }
 
 
-.sobre .text {
-  color: silver;
+.sobre p {
+  color: white;
+  text-indent: 0em;
+  margin-bottom: 1em;
   font-weight: lighter;
   font-size: 1em;
   line-height: 1.5em;
@@ -185,9 +190,11 @@ header {
   justify-content: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 550px) {
   .portfolio .grid_portfolio {
     grid-template-columns: 240px 240px;
+    align-content: center;
+    justify-content: center;
   }
 }
 
@@ -225,7 +232,7 @@ header {
  justify-content: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 550px) {
   .portfolio .grid {
     grid-template-columns: 240px 240px;
   }
@@ -241,13 +248,13 @@ header {
 }
 
 .portfolio i{
-  color: whitesmoke;
+  color: white;
   font-size: 5em;
   transition: text-shadow 1s,transform 1s;
 }
 
 .legenda {
-  color: whitesmoke;
+  color: white;
   font-weight: lighter;
   text-align: center;
   font-size: 0.7em;
@@ -261,7 +268,7 @@ header {
 }
 
 .dados{
-  color: silver;
+  color: white;
   font-weight: lighter;
   text-align: center;
   font-size: 1em;
@@ -269,7 +276,7 @@ header {
 }
 
 .dados a {
-  color: silver;
+  color: white;
   text-decoration: none;
   transition: text-shadow 1s,transform 1s;
 }
