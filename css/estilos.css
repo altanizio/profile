@@ -193,6 +193,18 @@ opacity: 0;
 
 }
 
+.sobre a {
+  color: burlywood;
+  text-decoration: none;
+  transition: text-shadow 1s,transform 1s,color 1s;
+}
+
+.sobre a:active,
+.sobre a:hover{
+  text-shadow: 0em 0em 0.5em rgba(255,255,255,0.7);
+  color: white;
+  transform: scale(1.1);
+}
 
 .sobre p {
   color: white;
