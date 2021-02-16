@@ -92,7 +92,7 @@ header {
 @media (max-width: 460px) {
   .menu {
     width: 100vw;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
