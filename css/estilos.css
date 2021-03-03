@@ -254,6 +254,16 @@ opacity: 0;
   }
 }
 
+@media (min-width: 1700px) {
+  .portfolio .grid_portfolio {
+    grid-template-columns: repeat(3, 400px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh + 10%);
+    gap: 4em;
+  }
+}
+
 @media (min-width: 550px) {
   .grid_portfolio {
     grid-template-columns: repeat(1, 400px);
