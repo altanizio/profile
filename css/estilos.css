@@ -375,6 +375,7 @@ opacity: 0;
   transform: rotateY(-180deg);
 }
 
+
 .dados a:active,
 .portfolio i:hover{
   text-shadow: 0em 0em 0.1em rgba(255,255,255,0.7);
