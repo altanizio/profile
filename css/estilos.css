@@ -315,6 +315,10 @@ opacity: 0;
   transition: transform 3s;
 }
 
+.card img{
+  border: 5px solid darkcyan;
+}
+
 .card-front, 
 .card-back {
   backface-visibility: hidden;
